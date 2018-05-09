@@ -16,7 +16,7 @@
     margin-left: 70%;
 }
 
-/* Begin main content */
+/* Begin index.html content */
 
 body {
     background-image: url(./images/escher.png);
@@ -47,8 +47,36 @@ body {
     color: black;
 }
 
-img {
+#photo {
     float: left;
+}
+
+/* Begin contact.html content */
+
+#contactBrand {
+    color: #ffffff;
+    padding: 20px;
+    margin-left: 190px;
+    background-color: #4aaaa5;
+}
+
+#contactMenu {
+    float: right;
+    margin-left: 45%;
+}
+
+#contact {
+    margin: 10px 200px 10px 200px;
+}
+
+#contact h1 {
+    color: #4aaaa5;
+    border-bottom: 4px solid #dddddd;
+}
+
+#button {
+    background-color: #4aaaa5;
+    padding: 15px 30px;
 }
 
 /* Begin footer section */
