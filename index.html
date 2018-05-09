@@ -5,45 +5,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Bootstrap About</title>
-    <link rel="stylesheet" href="./style.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="topbar">
+    
+    <a class="navbar-brand" href="#" id="brand">Carmen Owen</a>                
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>        
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="container" id="menu">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>  
+        </div>
+    </div>
+
+</nav>
+
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col" id="left">
-                    <a class="navbar-brand" href="#">Carmen Owen</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="col" id="right">
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                            <a class="nav-item nav-link" href="contact.html">Contact</a>
-                        </div>    
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <div class="main">  
-        <div class="container-fluid">      
+    <div class="row" id="main">
+        <div class="col-sm-8">
             <div class="card">
-                <h5 class="card-header">About Me</h5>
-                <div class="card-body">
-                    <img src="./images/sheep_profile.png" alt="Picture of me.">
-                    <p class="card-text">I am reinventing myself:  after many years of physically demanding
+            <div class="card-body">
+                <h3 class="card-title" id="card_head_1">About Me</h3>
+                <p class="card-text">
+                    <img src="./images/sheep_profile.png" class="col-sm-4 col-xs-4 img-responsive" alt="Photo of me">
+                    <p> I am reinventing myself:  after many years of physically demanding
                         outdoor work, I have decided to give my lower back a break.
                         I am excited to learn how to code, and I look forward to a 
                         new career, which will undoubtedly be challenging in other ways.</p>
-                    <p class="card-text">I am a great big nerd-- I enjoy reading mainly Sci-Fi and Fantasy, and 
+                    <p>I am a great big nerd-- I enjoy reading mainly Sci-Fi and Fantasy, and 
                         I have an embarassingly large collection of geeky books and DVDs.  In addition, I 
                         really enjoy playing tabletop games, such as Firefly, Terraforming Mars, 
                         Pandemic, Battlestar Galactica, Last Night on Earth... the list goes on.  
@@ -51,18 +50,33 @@
                         and I spend a lot of my free time (and money) landscaping my yard.  I have 
                         three cats, two dogs, and five chickens, and I used to own a flock of sheep, 
                         which I very much enjoyed.</p>
-                    <p class="card-text">I like to go for walks with my dogs at Pony Pasture and other parks around
+                    <p>I like to go for walks with my dogs at Pony Pasture and other parks around
                         Richmond.  I love the river, and the natural beauty of the park in all seasons.  
                         I geek out there, too, seeking out various plants to identify.  I use the 
                         iNaturalist app to find those I don't know.  This often leads to interesting
                         conversations with my customers and coworkers at Sneed's Nursery.</p>
-                </div>
+                </p>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title" id="card_head_2">Connect With Me</h5>
+                <p class="card-text" id="icons">
+                    <a href="#" class="fa fa-facebook" id="icon1"></a>
+                    <a href="#" class="fa fa-github" id="icon2"></a>
+                    <a href="#" class="fa fa-linkedin-square" id="icon3"></a>
+                </p>
+            </div>
             </div>
         </div>
     </div>
-
+        
+        
+    
     <div>
-        <nav class="navbar navbar-light bg-light" id="bottombar">
+        <nav class="navbar" id="bottombar">
             <span class="d-inline-flex p-2 bd-highlight" id="bottombartext">
                 &copy;2018 Carmen Owen  
             </span>

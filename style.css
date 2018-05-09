@@ -1,52 +1,65 @@
-/* I can't change the font color here, I suppose it 
-is overridden by the Bootstrap styling? Also top/bottom 
-padding. */
-.navbar-brand {
-    background-color: #4aaaa5;
+#topbar {
+    border-bottom: 4px solid #cccccc;
+    margin-bottom: 25px;
+    background-color:#ffffff;
+}
+
+#brand {
     color: #ffffff;
     padding: 20px;
+    margin-left: 30px;
+    background-color: #4aaaa5;
 }
 
-/* All text following the first space in the class name
-must be left out to work. */
-/* Padding doesn't work here */
-.navbar {
-    border-bottom: 4px solid #cccccc;
+#menu {
+    float: right;
+    margin-left: 70%;
 }
 
-/* To move nav bar right, I tried float right, and 
-col align-self-end, then margin-left worked, until I changed 
-the size of the browser window. d-inline-flex did not work. */
-#left {
-    margin-left: 70px;
-}
+/* Begin main content */
 
-#right {
-    margin-left: 550px;
-}
-
-/* Would accept top & bottom margin, but not left/right.  
-More Bootstrap conflict? Padding achieved desired result. */
-.main {
+body {
     background-image: url(./images/escher.png);
-    padding: 50px 100px 50px 100px;
 }
 
-/* Will not accept changes to font size, or border-bottom. */
-.card-header {
+#main {
+     margin: 10px 30px 10px 30px;
+}
+
+#card_head_1 {
+    padding: 10px 0px 25px 0px;
+    border-bottom: 4px solid #dddddd;
     color: #4aaaa5;
-    margin: 0px 20px 0px 20px;
+}
+#card_head_2 {
+    padding: 10px 0px 15px 0px;
+    border-bottom: 4px solid #dddddd;
+    color: #4aaaa5;
 }
 
-.card-body img {
-    float: left;
-    margin-right: 15px;
+#icons {
+    text-align: center;
+    font-size: 40px;
+    padding: 15px 0px 15px 0px;
 }
+
+#icon2 {
+    color: black;
+}
+
+img {
+    float: left;
+}
+
+/* Begin footer section */
 
 #bottombar {
+    margin-top: 250px;
     background-color: #666666;
+    border-top: 4px solid #4aaaa5;
 }
 
 #bottombartext {
     margin: 0 auto;
+    color: #cccccc;
 }
