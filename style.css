@@ -7,23 +7,31 @@
 #brand {
     color: #ffffff;
     padding: 20px;
-    margin-left: 30px;
+    margin-left: 10%;
     background-color: #4aaaa5;
 }
 
 #menu {
     float: right;
-    margin-left: 70%;
+    margin-left: 60%;
 }
 
-/* Begin index.html content */
+/* Begin index.html styling */
 
 body {
     background-image: url(./images/escher.png);
 }
 
+#mainbox {
+    margin-bottom: 25px;
+}
+
 #main {
-     margin: 10px 30px 10px 30px;
+     margin: 10px 30px 10px 10%;
+}
+
+#aside {
+    margin-right: 10%;
 }
 
 #card_head_1 {
@@ -51,12 +59,12 @@ body {
     float: left;
 }
 
-/* Begin contact.html content */
+/* Begin contact.html styling */
 
 #contactBrand {
     color: #ffffff;
     padding: 20px;
-    margin-left: 190px;
+    margin-left: 15%;
     background-color: #4aaaa5;
 }
 
@@ -66,7 +74,7 @@ body {
 }
 
 #contact {
-    margin: 10px 200px 10px 200px;
+    margin: 10px 15% 10px 15%;
 }
 
 #contact h1 {
@@ -79,7 +87,64 @@ body {
     padding: 15px 30px;
 }
 
-/* Begin footer section */
+/* Begin portfolio.html styling */
+
+#p_main {
+    margin-top: 10px;
+    width: 90%;
+    background-color: #ffffff;
+}
+
+#p_header {
+    padding: 10px 0px 25px 0px;
+    border-bottom: 4px solid #dddddd;
+    color: #4aaaa5;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#box1 {
+    display: inline-block;
+    overflow: auto;
+    background-image: url(./images/flora.png);
+    margin: 0px 0px 25px 25px;
+    padding: 100px 150px;
+}
+
+#box2 {
+    display: inline-block; 
+    overflow: auto;
+    background-image: url(./images/fauna.png);
+    margin: 0px 0px 25px 25px;
+    padding: 100px 150px;
+}
+
+#box3 {
+    display: inline-block; 
+    overflow: auto;
+    background-image: url(./images/projects.png);
+    margin: 0px 0px 25px 25px;
+    padding: 100px 150px;
+}
+
+#box4 {
+    display: inline-block; 
+    overflow: auto;
+    background-image: url(./images/geekery.png);
+    margin: 0px 0px 25px 25px;
+    padding: 100px 150px;
+}
+
+#box5 {
+    display: inline-block;
+    overflow: auto;
+    background-image: url(./images/travels.png);
+    margin: 0px 0px 25px 25px;
+    padding: 100px 150px;
+}
+
+/* Begin footer styling */
 
 #bottombar {
     margin-top: 250px;
